@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paras-Developer Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="paras.css" />
+    <script src="https://kit.fontawesome.com/3bb9091dac.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+    <div id="header"> 
+    <nav>
+        <div class="left">Paras's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#header"> Home</a></li>
+            <li><a href="#about"> About</a></li>
+            <li><a href="#about"> Experiences</a></li>
+            <li><a href="#contact"> Contact Me</a></li>
+          </ul>
+        </div>
+    </nav>
+    </div>
+     
+    </header>
+
+    <main>
+      <!-- part 1 -->
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi My name is <span class="purple"> Paras </span>
+          <div>and i am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="image.png" alt="frontend Developer" />
+        </div>
+      </section>
+      <hr>
+      <!-- About section -->
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <!-- first image -->
+            <div class="about-col-1">
+              <img
+                src="Screenshot (90).png"
+                alt="Paras"
+                height="400px"
+                width="350px"
+              />
+            </div>
+            <!-- 2nd mein about -->
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>
+                Hello! My name is Paras Gogia and I am 3rd year ECE Student at Punjab
+                Engineering College, Chandigarh. I am a Tech Enthusiast & loves
+                to read and learn about new Technologies.
+              </p>
+              <!-- tab titles -->
+              <div class="tab-titles">
+                <p class="tab-links active-links" onclick="opentab('skills')">
+                  Skills
+                </p>
+                <p class="tab-links" onclick="opentab('education')">
+                  Education
+                </p>
+                <p class="tab-links" id = "activities" onclick="opentab('experiences')">
+                  Co-Curriculum Activities
+                </p>
+                <p class="tab-links" id="Award" onclick="opentab('awards')">
+                  Awards & Certificates
+                </p>
+              </div>
+              <!-- tab-contents1 -->
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span id="Span">Languages</span> : C++</li>
+                  <li>
+                    <span id="Span">IT Constructs</span> : Data Structures &
+                    Algorithms
+                  </li>
+                  <li>
+                    <span id="Span">CS Fundamentals</span> :
+                    OOPS,DBMS,OS,Computer Networks
+                  </li>
+                  <li>
+                    <span id="Span">Frontend Development</span> : HTML5,CSS,JS
+                  </li>
+                </ul>
+              </div>
+              <!-- tab-content2 -->
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span id="Span">BTECH</span> : Punjab Engineering
+                    College,Electronics and Communication Engineering
+                    <span id="Span2">CGPA</span> : 7.93
+                  </li>
+                  <li>
+                    <span id="Span">XII CBSE</span> : Sri Guru Harkrishan Public
+                    Senior Secondary School,Patiala,Punjab
+                    <span id="Span2">Percentage</span> : 90.8
+                  </li>
+                  <li>
+                    <span id="Span">X CBSE</span> : Sri Aurobindo International
+                    School,Patiala,Punjab <span id="Span2">Percentage</span> :
+                    88
+                  </li>
+                </ul>
+              </div>
+              <!-- tab-content3 -->
+              <div class="tab-contents" id="experiences">
+                <ul>
+                  <li>
+                    <span id="Span">IEEE PEC STUDENT BRANCH</span> :
+                    Implementation Body Member
+                  </li>
+                  <li>
+                    <span id="Span">PEC-FEST</span> : Sub-Head at PR & Media
+                    Committee
+                  </li>
+                  <li>
+                    <span id="Span">TECHNOXIAN</span> : Participated in
+                    International Line Follower Event at Noida Indoor Stadium
+                  </li>
+                  <li>
+                    <span id="Span">TECHNOVATION</span> : Participated in
+                    Techcreation an event organised as a part of Technovation
+                    held at PEC Chandigarh by IEEE Pec Student Branch.
+                  </li>
+                </ul>
+              </div>
+              <!-- tab-content4 -->
+              <div class="tab-contents" id="awards">
+                <ul>
+                  <li>
+                    <span id="Span">CODING NINJAS</span> : Star performer of
+                    Coding Ninjas in Basics of C ++ with Data structures And
+                    Algorithms.
+                  </li>
+                  <li>
+                    <span id="Span">TECHNOVATION</span> :Certificate of
+                    achievement, Secured 3rd Position in Techcreation organised
+                    as a part of technovation held at PEC Chandigarh by IEEE Pec
+                    Student Branch.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!-- contact -->
+       <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 id = "sub-title">Contact Me</h1>
+              <p><i class="fa-sharp fa-solid fa-paper-plane"></i>parasgogia4@gmail.com</p>
+              <p><i class="fa-solid fa-square-phone"></i>7986872127</p>
+              <div class="social-icons">
+              <a href="https://www.facebook.com/profile.php?id=100088819756803&mibextid=ZbWKwL" id = "a1"><i class="fab fa-facebook"></i></a>
+              <a href=https://www.linkedin.com/in/paras-gogia-750b08256 id = "a2"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+              <a href="Paras Gogia_resume.pdf" download class = "btn">Download Resume</a>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name = "Name" placeholder="Your Name" required>
+                <input type="email" name = "Email" placeholder="Your Email" required>
+                <textarea name="Messages" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+              <span id = "msg"></span>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>© 2024.All Rights reserved</p>
+        </div>
+       </div>
+
+
+    </main>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-links");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Coder", "Programmer"],
+        typeSpeed: 50,
+      });
+    </script>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzzyfByOUbnGtf4zJ2CcxUeQeTTlzs1rth8NcsHE1brr9UAaY3NoaeRhI9Sz66kGRw_fg/exec'
+      const form = document.forms['submit-to-google-sheet']
+     const msg = document.getElementById("msg")
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message Sent Successfully";
+            setTimeout(function(){
+              msg.innerHTML = "";
+            },1000)
+            form.reset();
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
